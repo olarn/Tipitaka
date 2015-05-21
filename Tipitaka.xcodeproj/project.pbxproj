@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3742DFC51B0E240A00FD5234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFC41B0E240A00FD5234 /* main.m */; };
+		3742DFC81B0E240A00FD5234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFC71B0E240A00FD5234 /* AppDelegate.m */; };
+		3742DFCB1B0E240A00FD5234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFCA1B0E240A00FD5234 /* ViewController.m */; };
+		3742DFCE1B0E240A00FD5234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3742DFCC1B0E240A00FD5234 /* Main.storyboard */; };
+		3742DFD01B0E240A00FD5234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742DFCF1B0E240A00FD5234 /* Images.xcassets */; };
+		3742DFD31B0E240A00FD5234 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3742DFD11B0E240A00FD5234 /* LaunchScreen.xib */; };
+		3742DFDF1B0E240A00FD5234 /* TipitakaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFDE1B0E240A00FD5234 /* TipitakaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3742DFD91B0E240A00FD5234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3742DFB71B0E240A00FD5234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3742DFBE1B0E240A00FD5234;
+			remoteInfo = Tipitaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3742DFBF1B0E240A00FD5234 /* Tipitaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipitaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742DFC31B0E240A00FD5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742DFC41B0E240A00FD5234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3742DFC61B0E240A00FD5234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3742DFC71B0E240A00FD5234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3742DFC91B0E240A00FD5234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3742DFCA1B0E240A00FD5234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3742DFCD1B0E240A00FD5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3742DFCF1B0E240A00FD5234 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3742DFD21B0E240A00FD5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3742DFD81B0E240A00FD5234 /* TipitakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipitakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742DFDD1B0E240A00FD5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742DFDE1B0E240A00FD5234 /* TipitakaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipitakaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3742DFBC1B0E240A00FD5234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742DFD51B0E240A00FD5234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3742DFB61B0E240A00FD5234 = {
+			isa = PBXGroup;
+			children = (
+				3742DFC11B0E240A00FD5234 /* Tipitaka */,
+				3742DFDB1B0E240A00FD5234 /* TipitakaTests */,
+				3742DFC01B0E240A00FD5234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3742DFC01B0E240A00FD5234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3742DFBF1B0E240A00FD5234 /* Tipitaka.app */,
+				3742DFD81B0E240A00FD5234 /* TipitakaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3742DFC11B0E240A00FD5234 /* Tipitaka */ = {
+			isa = PBXGroup;
+			children = (
+				3742DFC61B0E240A00FD5234 /* AppDelegate.h */,
+				3742DFC71B0E240A00FD5234 /* AppDelegate.m */,
+				3742DFC91B0E240A00FD5234 /* ViewController.h */,
+				3742DFCA1B0E240A00FD5234 /* ViewController.m */,
+				3742DFCC1B0E240A00FD5234 /* Main.storyboard */,
+				3742DFCF1B0E240A00FD5234 /* Images.xcassets */,
+				3742DFD11B0E240A00FD5234 /* LaunchScreen.xib */,
+				3742DFC21B0E240A00FD5234 /* Supporting Files */,
+			);
+			path = Tipitaka;
+			sourceTree = "<group>";
+		};
+		3742DFC21B0E240A00FD5234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3742DFC31B0E240A00FD5234 /* Info.plist */,
+				3742DFC41B0E240A00FD5234 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3742DFDB1B0E240A00FD5234 /* TipitakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3742DFDE1B0E240A00FD5234 /* TipitakaTests.m */,
+				3742DFDC1B0E240A00FD5234 /* Supporting Files */,
+			);
+			path = TipitakaTests;
+			sourceTree = "<group>";
+		};
+		3742DFDC1B0E240A00FD5234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3742DFDD1B0E240A00FD5234 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3742DFBE1B0E240A00FD5234 /* Tipitaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742DFE21B0E240A00FD5234 /* Build configuration list for PBXNativeTarget "Tipitaka" */;
+			buildPhases = (
+				3742DFBB1B0E240A00FD5234 /* Sources */,
+				3742DFBC1B0E240A00FD5234 /* Frameworks */,
+				3742DFBD1B0E240A00FD5234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipitaka;
+			productName = Tipitaka;
+			productReference = 3742DFBF1B0E240A00FD5234 /* Tipitaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3742DFD71B0E240A00FD5234 /* TipitakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742DFE51B0E240A00FD5234 /* Build configuration list for PBXNativeTarget "TipitakaTests" */;
+			buildPhases = (
+				3742DFD41B0E240A00FD5234 /* Sources */,
+				3742DFD51B0E240A00FD5234 /* Frameworks */,
+				3742DFD61B0E240A00FD5234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3742DFDA1B0E240A00FD5234 /* PBXTargetDependency */,
+			);
+			name = TipitakaTests;
+			productName = TipitakaTests;
+			productReference = 3742DFD81B0E240A00FD5234 /* TipitakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3742DFB71B0E240A00FD5234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Info SI Software Co., Ltd.";
+				TargetAttributes = {
+					3742DFBE1B0E240A00FD5234 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3742DFD71B0E240A00FD5234 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3742DFBE1B0E240A00FD5234;
+					};
+				};
+			};
+			buildConfigurationList = 3742DFBA1B0E240A00FD5234 /* Build configuration list for PBXProject "Tipitaka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3742DFB61B0E240A00FD5234;
+			productRefGroup = 3742DFC01B0E240A00FD5234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3742DFBE1B0E240A00FD5234 /* Tipitaka */,
+				3742DFD71B0E240A00FD5234 /* TipitakaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3742DFBD1B0E240A00FD5234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742DFCE1B0E240A00FD5234 /* Main.storyboard in Resources */,
+				3742DFD31B0E240A00FD5234 /* LaunchScreen.xib in Resources */,
+				3742DFD01B0E240A00FD5234 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742DFD61B0E240A00FD5234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3742DFBB1B0E240A00FD5234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742DFCB1B0E240A00FD5234 /* ViewController.m in Sources */,
+				3742DFC81B0E240A00FD5234 /* AppDelegate.m in Sources */,
+				3742DFC51B0E240A00FD5234 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742DFD41B0E240A00FD5234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742DFDF1B0E240A00FD5234 /* TipitakaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3742DFDA1B0E240A00FD5234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3742DFBE1B0E240A00FD5234 /* Tipitaka */;
+			targetProxy = 3742DFD91B0E240A00FD5234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3742DFCC1B0E240A00FD5234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3742DFCD1B0E240A00FD5234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3742DFD11B0E240A00FD5234 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3742DFD21B0E240A00FD5234 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3742DFE01B0E240A00FD5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3742DFE11B0E240A00FD5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3742DFE31B0E240A00FD5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tipitaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3742DFE41B0E240A00FD5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tipitaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3742DFE61B0E240A00FD5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipitakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipitaka.app/Tipitaka";
+			};
+			name = Debug;
+		};
+		3742DFE71B0E240A00FD5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipitakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipitaka.app/Tipitaka";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3742DFBA1B0E240A00FD5234 /* Build configuration list for PBXProject "Tipitaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742DFE01B0E240A00FD5234 /* Debug */,
+				3742DFE11B0E240A00FD5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3742DFE21B0E240A00FD5234 /* Build configuration list for PBXNativeTarget "Tipitaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742DFE31B0E240A00FD5234 /* Debug */,
+				3742DFE41B0E240A00FD5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3742DFE51B0E240A00FD5234 /* Build configuration list for PBXNativeTarget "TipitakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742DFE61B0E240A00FD5234 /* Debug */,
+				3742DFE71B0E240A00FD5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3742DFB71B0E240A00FD5234 /* Project object */;
+}
