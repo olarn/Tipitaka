@@ -43,5 +43,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>JSYodthida.otf</string>
+		<string>Book_R-luX [2006].ttf</string>
+	</array>
 </dict>
 </plist>

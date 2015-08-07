@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372CF51C1B0F9566003AC30D /* JSYodthida.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372CF51B1B0F9566003AC30D /* JSYodthida.otf */; };
+		372CF51E1B0F9B9C003AC30D /* Book_R-luX [2006].ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372CF51D1B0F9B9C003AC30D /* Book_R-luX [2006].ttf */; };
 		3742DFC51B0E240A00FD5234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFC41B0E240A00FD5234 /* main.m */; };
 		3742DFC81B0E240A00FD5234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFC71B0E240A00FD5234 /* AppDelegate.m */; };
 		3742DFCB1B0E240A00FD5234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742DFCA1B0E240A00FD5234 /* ViewController.m */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		372CF51B1B0F9566003AC30D /* JSYodthida.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSYodthida.otf; sourceTree = "<group>"; };
+		372CF51D1B0F9B9C003AC30D /* Book_R-luX [2006].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Book_R-luX [2006].ttf"; sourceTree = "<group>"; };
 		3742DFBF1B0E240A00FD5234 /* Tipitaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipitaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3742DFC31B0E240A00FD5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3742DFC41B0E240A00FD5234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		3742DFB61B0E240A00FD5234 = {
 			isa = PBXGroup;
 			children = (
+				372CF51D1B0F9B9C003AC30D /* Book_R-luX [2006].ttf */,
+				372CF51B1B0F9566003AC30D /* JSYodthida.otf */,
 				3742DFC11B0E240A00FD5234 /* Tipitaka */,
 				3742DFDB1B0E240A00FD5234 /* TipitakaTests */,
 				3742DFC01B0E240A00FD5234 /* Products */,
@@ -199,7 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372CF51C1B0F9566003AC30D /* JSYodthida.otf in Resources */,
 				3742DFCE1B0E240A00FD5234 /* Main.storyboard in Resources */,
+				372CF51E1B0F9B9C003AC30D /* Book_R-luX [2006].ttf in Resources */,
 				3742DFD31B0E240A00FD5234 /* LaunchScreen.xib in Resources */,
 				3742DFD01B0E240A00FD5234 /* Images.xcassets in Resources */,
 			);
@@ -418,6 +426,7 @@
 				3742DFE41B0E240A00FD5234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3742DFE51B0E240A00FD5234 /* Build configuration list for PBXNativeTarget "TipitakaTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				3742DFE71B0E240A00FD5234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
